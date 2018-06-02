@@ -1,0 +1,81 @@
+This file contains microarray (genetic expression) data for 74 patients with two 
+types of Leukemia: 
+      ALL (Acute Lymphoblastic leukemia) and 
+      AML (Acute Myelogenous Leukemia)
+
+The original data had over 7,000 genes but this data has selected genes which have been 
+already determined to be relevant.
+
+In addition it has several field describing the sample: 
+SNUM: sample number (note that the samples are not strictly ordered by sample number)
+CLASS: Sample Class
+Year: year sample taken
+Gender: patient gender
+BM_PB: subtype of leukemia
+TB_if_ALL: subtype of ALL 
+FAB_if_AML: subtype of AML
+pct_Blasts: treatment related
+Treatment_Response: outcome
+PS: treatment related
+Source: the hospital the data came from
+
+Note that many of the sample values are missing and are represented by "?".
+
+Fields D49950_at, etc correspond to gene expression values for the respective genes, measured by an Affymetrix chip.
+
+The target field is Class.
+
+In addition, you are provided with the following documentation about the fields.
+
+
+SNUM: sample number
+CLASS: ALL, AML.
+BM_PB: discrete
+TB_if_ALL: discrete
+FAB_if_AML: discrete
+Year: continuous.
+Gender: M, F.
+pct_Blasts: continuous.
+Treatment_Response: discrete.
+PS: continuous.
+Source: discrete. 
+D49950_at: continuous.
+D63880_at: continuous.
+J03473_at: continuous.
+J05243_at: continuous.
+L13278_at: continuous.
+L47738_at: continuous.
+M21551_rna1_at: continuous.
+M55150_at: continuous.
+M62762_at: continuous.
+M81933_at: continuous.
+M91432_at: continuous.
+S50223_at: continuous.
+U12471_cds1_at: continuous.
+U32944_at: continuous.
+U35451_at: continuous.
+U50136_rna1_at: continuous.
+U53468_at: continuous.
+U72342_at: continuous.
+U82759_at: continuous.
+X15949_at: continuous.
+X52142_at: continuous.
+X56411_rna1_at: continuous.
+X63469_at: continuous.
+X74262_at: continuous.
+X76061_at: continuous.
+X76648_at: continuous.
+X95735_at: continuous.
+Y08612_at: continuous.
+Y12670_at: continuous.
+D38073_at: continuous.
+AF012024_s_at: continuous.
+D26156_s_at: continuous.
+M84371_rna1_s_at: continuous.
+M31211_s_at: continuous.
+U09087_s_at: continuous.
+U26266_s_at: continuous.
+L49229_f_at: continuous.
+M31523_at: continuous.
+M28170_at: continuous.
+U29175_at: continuous.
